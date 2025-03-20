@@ -3,35 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人网站</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>张欢的个人网站</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>欢迎来到我的个人网站</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="about.html">关于我</a></li>
-                <li><a href="projects.html">项目</a></li>
-                <li><a href="contact.html">联系我</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="images/avatar.jpg" alt="张欢的头像" class="avatar">
+            <h1>张欢</h1>
+            <p>硕士研究生 | 植物营养学</p>
+        </div>
     </header>
-    <main>
+
+    <main class="container">
+        <!-- 个人简介 -->
         <section>
-            <h2>关于我</h2>
-            <p>大家好，我是张欢，一名植物营养学的研究生。</p>
-            <p>我喜欢运动。</p>
+            <h2>个人简介</h2>
+            <p>张欢，硕士研究生，毕业于云南农业大学农业资源与环境专业，现就读于华中农业大学植物营养学专业。</p>
         </section>
+
+        <!-- 教育经历 -->
         <section>
-            <h2>最新动态</h2>
-            <p>我正在学习如何使用GitHub Pages搭建个人网站。</p>
+            <h2>教育经历</h2>
+            <ul>
+                <li>云南农业大学 - 农业资源与环境专业（本科）</li>
+                <li>华中农业大学 - 植物营养学专业（硕士在读）</li>
+            </ul>
+        </section>
+
+        <!-- 曾获荣誉 -->
+        <section>
+            <h2>曾获荣誉</h2>
+            <ul>
+                <li>国家奖学金</li>
+                <li>云南省政府奖学金</li>
+                <li>云南省三好学生</li>
+                <li>云南省级优秀毕业生</li>
+            </ul>
+        </section>
+
+        <!-- 联系方式 -->
+        <section>
+            <h2>联系方式</h2>
+            <ul>
+                <li>邮箱：<a href="mailto:1551594366@qq.com">1551594366@qq.com</a></li>
+                <li>电话：<a href="tel:17680166539">17680166539</a></li>
+            </ul>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 我的个人网站</p>
+        <div class="container">
+            <p>&copy; 2023 张欢的个人网站</p>
+        </div>
     </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>
